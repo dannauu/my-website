@@ -62,14 +62,14 @@ export default function ContactUs() {
                 id=""
                 cols="30"
                 rows="8"
-                placeholder="Your message"
+                placeholder="Add your message or plan you would like to buy!"
                 name="message"
               ></textarea>
             </div>
             <div className="col-8 pt-3 mx-auto">
               <input
                 type="submit"
-                className="btn btn-info"
+                className="btn btn-dark"
                 value="Send Message"
               ></input>
             </div>

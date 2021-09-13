@@ -8,9 +8,9 @@ function App() {
   return (
     <Router>
       <div className="container">
-        <div className="row">
+        <div className="row sticky-top">
           <div className="col text-center display-6 box">
-            <Link to="/">Home</Link>
+            <Link to="/">Services</Link>
           </div>
           <div className="col text-center display-6 box">
             <Link to="/about">About</Link>

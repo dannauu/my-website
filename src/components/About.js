@@ -1,6 +1,7 @@
 import React from "react";
 import Pic from "./img/aboutmepic.jpg";
 import Certificate from "./img/Certificate.PNG";
+import pdf from "./assets/Daniel Nau Resume 2021 (2).pdf";
 
 const About = () => {
   return (
@@ -17,17 +18,26 @@ const About = () => {
             className="aboutmepic"
           />
 
-          <p className="text-focus-in">
-            Growing up in the midwest, (Kansas City) and working construction
-            for the majority of my early adulthood I finally took the leap of
-            faith and made a career change. In 2020 during the global pandemic I
-            thought what better time to pursue my dream of being a Full Stack
-            Developer. Through Kansas University I acheived a certificate for
-            completing their Full Stack Bootcamp in May of 2021. During this
-            bootcamp I learned a vast amount of knowledge, including React,
-            NodeJs, jQuery, API interaction, SQL, MongoDB and more!
+          <p className="text-focus-in display-6">
+            I am a full stack developer who is proficient in Javascript. I
+            mainly create successful websites with React as the front-end
+            framework and NodeJs for the back-end!
           </p>
 
+          <p className="text-focus-in display-6">
+            I strive to make a better web; one that is fast, easy to use, and
+            frustration-free. Regardless of your specific business requirements,
+            in solving these challenges, you have a great chance of finding
+            success online.
+          </p>
+
+          <p className="text-focus-in display-6">
+            Rather your needs be a e-commerce website for your business or a
+            personal blog, you can guarantee that all industry standards will be
+            met!
+          </p>
+        </div>
+        <div className="aa">
           <img
             src={Certificate}
             width="400"
@@ -35,6 +45,44 @@ const About = () => {
             alt=""
             className="certificate"
           />
+
+          <p className="text-focus-in display-6">
+            On May 24th, 2021 I graduated Kansas University Full Stack Coding
+            bootcamp. During this bootcamp I learned a metric ton of information
+            for at the time was just a hobby, now I am a full time developer and
+            couldn't be happier! Pursuing a career in Web Development was always
+            a dream of mine!
+          </p>
+        </div>
+      </div>
+      <div className="contact">
+        <div className="row">
+          <div className="col-md-12">
+            <a
+              href={pdf}
+              className="btn btn-social"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="far fa-file-pdf fa-7x"></i>
+            </a>
+            <a
+              href="https://github.com/dannauu"
+              className="btn btn-social"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-github fa-7x"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/daniel-nau-070441194/"
+              className="btn btn-social"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-linkedin fa-7x"></i>
+            </a>
+          </div>
         </div>
       </div>
     </>
