@@ -17,7 +17,7 @@ const About = () => {
             className="aboutmepic"
           />
 
-          <p className='text-focus-in'>
+          <p className="text-focus-in">
             Growing up in the midwest, (Kansas City) and working construction
             for the majority of my early adulthood I finally took the leap of
             faith and made a career change. In 2020 during the global pandemic I
@@ -25,7 +25,7 @@ const About = () => {
             Developer. Through Kansas University I acheived a certificate for
             completing their Full Stack Bootcamp in May of 2021. During this
             bootcamp I learned a vast amount of knowledge, including React,
-            NodeJs, jQuery, API interaction, SQL, MongoDB and more! 
+            NodeJs, jQuery, API interaction, SQL, MongoDB and more!
           </p>
 
           <img

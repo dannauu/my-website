@@ -9,14 +9,14 @@ function App() {
     <Router>
       <div className="container">
         <div className="row">
-          <div className="col text-center display-5 box">
+          <div className="col text-center display-6 box">
             <Link to="/">Home</Link>
           </div>
-          <div className="col text-center display-5 box">
-            <Link to="/about">About Me</Link>
+          <div className="col text-center display-6 box">
+            <Link to="/about">About</Link>
           </div>
-          <div className="col text-center display-5 box">
-            <Link to="/contact">Contact Me</Link>
+          <div className="col text-center display-6 box">
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
         <Switch>

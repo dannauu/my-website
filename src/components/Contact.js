@@ -28,7 +28,7 @@ export default function ContactUs() {
     <div>
       <div className="container">
         <div className='contacth1'>
-          <h1 className='text-focus-in'>Have a question or want to work together?</h1>
+          <h1 className='text-focus-in display-3'>Have a question or want to work together?</h1>
         </div>
         <form onSubmit={sendEmail}>
           <div className="row pt-5 mx-auto">
@@ -86,7 +86,7 @@ export default function ContactUs() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="far fa-file-pdf"></i> Resume
+              <i className="far fa-file-pdf fa-7x"></i>
             </a>
             <a
               href="https://github.com/dannauu"
@@ -94,7 +94,7 @@ export default function ContactUs() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-github"></i> Github
+              <i className="fab fa-github fa-7x"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/daniel-nau-070441194/"
@@ -102,7 +102,7 @@ export default function ContactUs() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-linkedin"></i> Linkedin
+              <i className="fab fa-linkedin fa-7x"></i>
             </a>
           </div>
         </div>
