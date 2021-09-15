@@ -12,7 +12,7 @@ const Landing = () => {
           Hire experienced developers here!
         </p>
         <div className="row skills">
-          <button className="col-md-3 bounce-in-top">
+          <button className="col-md-3 bounce-in-top" id='col-md-3'>
             <i class="fas fan fa-code fa-3x"></i>
           </button>
           <button className="col-md-3 bounce-in-top">

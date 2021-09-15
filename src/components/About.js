@@ -15,7 +15,7 @@ const About = () => {
             width="300"
             height="300"
             alt=""
-            className="aboutmepic"
+            className="aboutmepic" id='aboutmepic'
           />
 
           <p className="text-focus-in display-6">
