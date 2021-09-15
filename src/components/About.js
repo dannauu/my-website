@@ -20,7 +20,7 @@ const About = () => {
 
           <p className="text-focus-in display-6">
             I am a full stack developer who is proficient in Javascript. I
-            mainly create successful websites with a MERN stack.
+            mainly create successful websites using a MERN stack.
           </p>
 
           <p className="text-focus-in display-6">
