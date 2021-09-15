@@ -34,9 +34,9 @@ const Landing = () => {
             <li>Support</li>
           </ul>
         </div>
-        <div className="box1">
+        <div className="box1" id='my-content'>
           <div className="row d-flex justify-content-center">
-            <div className="col-md-4 box3">
+            <div className="col- box3">
               <div className="card">
                 <div className="card-body">
                 <i class="fas fa-file-code fa-3x"></i>
@@ -49,7 +49,7 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 box3">
+            <div className="col- box3">
               <div className="card">
                 <div className="card-body">
                 <i class="fas fa-user-clock fa-3x"></i>
@@ -64,7 +64,7 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 box3 box4">
+            <div className="col- box3 box4">
               <div className="card">
                 <div className="card-body">
                 <i class="fas fa-tools fa-3x"></i>

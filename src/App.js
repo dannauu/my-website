@@ -19,6 +19,13 @@ function App() {
             <Link to="/contact">Contact</Link>
           </div>
         </div>
+        <div className="warning text-center">
+          <h6>
+            <i class="fas fa-exclamation-circle"></i> Our website is currently
+            still being developed. If you run into any issues feel free to
+            contact us. Thank you for your patience. <i class="fas fa-exclamation-circle"></i>
+          </h6>
+        </div>
         <Switch>
           <Route path="/" exact component={Landing} />
           <Route path="/about" component={About} />

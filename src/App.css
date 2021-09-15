@@ -1,5 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
+  margin: 0px;
 }
 
 a {
@@ -26,10 +27,11 @@ a {
 }
 
 .box1 {
-  height: 500px;
+  height: auto;
   margin-top: 40px;
   margin-bottom: 50px;
   background-color: black;
+  border-radius: 5px;
 }
 .box::after {
   content: "";
@@ -431,6 +433,7 @@ li {
         width: 32%;
         margin-right: 5px;
         margin-top: 100px;
+        margin-bottom: 100px;
         align-items: center;
 }
 
@@ -483,4 +486,16 @@ li {
                 margin-top: 100px;
                 margin-bottom: 150px;
       }
+
+      .warning {
+        height: auto;
+        margin-top: 10px;
+        background-color: red;
+        border-radius: 5px;
+      }
+      
+      .col- {
+        width: 26em;
+      }
+
       
