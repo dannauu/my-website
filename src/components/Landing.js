@@ -13,16 +13,16 @@ const Landing = () => {
         </p>
         <div className="row skills">
           <button className="col-md-3 bounce-in-top" id='col-md-3'>
-            <i class="fas fan fa-code fa-3x"></i>
+            <i className="fas fan fa-code fa-3x"></i>
           </button>
           <button className="col-md-3 bounce-in-top">
-            <i class="fab fan fa-node fa-3x"></i>
+            <i className="fab fan fa-node fa-3x"></i>
           </button>
           <button className="col-md-3 bounce-in-top">
-            <i class="fab fan fa-react fa-3x"></i>
+            <i className="fab fan fa-react fa-3x"></i>
           </button>
           <button className="col-md-3 bounce-in-top">
-            <i class="fab fan fa-js fa-3x"></i>
+            <i className="fab fan fa-js fa-3x"></i>
           </button>
         </div>
 
@@ -39,7 +39,7 @@ const Landing = () => {
             <div className="col- box3">
               <div className="card">
                 <div className="card-body">
-                <i class="fas fa-file-code fa-3x"></i>
+                <i className="fas fa-file-code fa-3x"></i>
                   <h4 className="card-title focus-in-expand">Development</h4>
                   <h5 className="card-subtitle mb-2">$60/hr</h5>
                   <p>
@@ -52,7 +52,7 @@ const Landing = () => {
             <div className="col- box3">
               <div className="card">
                 <div className="card-body">
-                <i class="fas fa-user-clock fa-3x"></i>
+                <i className="fas fa-user-clock fa-3x"></i>
                   <h4 className="card-title focus-in-expand">
                     Development w/Tech Support
                   </h4>
@@ -67,7 +67,7 @@ const Landing = () => {
             <div className="col- box3 box4">
               <div className="card">
                 <div className="card-body">
-                <i class="fas fa-tools fa-3x"></i>
+                <i className="fas fa-tools fa-3x"></i>
                   <h4 className="card-title focus-in-expand">Maintenance</h4>
                   <h5 className="card-subtitle mb-2">$60/hr</h5>
                   <p>
