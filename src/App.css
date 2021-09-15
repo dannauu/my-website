@@ -494,8 +494,9 @@ li {
       .warning {
         height: auto;
         margin-top: 10px;
-        background-color: red;
+        background-color: #ff0000;
         border-radius: 5px;
+        color: white;
       }
       
       .col- {
