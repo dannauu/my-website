@@ -23,7 +23,7 @@ function App() {
           <h6>
             <i className="fas fa-exclamation-circle"></i> Our website is currently
             still being developed. If you run into any issues feel free to
-            contact us. Thank you for your patience. <i class="fas fa-exclamation-circle"></i>
+            contact us. Thank you for your patience. <i className="fas fa-exclamation-circle"></i>
           </h6>
         </div>
         <Switch>
