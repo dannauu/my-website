@@ -20,13 +20,12 @@ const About = () => {
 
           <p className="text-focus-in display-6">
             I am a full stack developer who is proficient in Javascript. I
-            mainly create successful websites with React as the front-end
-            framework and NodeJs for the back-end!
+            mainly create successful websites with a MERN stack.
           </p>
 
           <p className="text-focus-in display-6">
             I strive to make a better web; one that is fast, easy to use, and
-            frustration-free. Regardless of your specific business requirements,
+            frustration-free. Regardless of your specific requirements,
             in solving these challenges, you have a great chance of finding
             success online.
           </p>
@@ -34,7 +33,7 @@ const About = () => {
           <p className="text-focus-in display-6">
             Rather your needs be a e-commerce website for your business or a
             personal blog, you can guarantee that all industry standards will be
-            met!
+            met using MERN stack!
           </p>
         </div>
         <div className="aa">
