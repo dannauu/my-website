@@ -21,7 +21,7 @@ function App() {
         </div>
         <div className="warning text-center">
           <h6>
-            <i class="fas fa-exclamation-circle"></i> Our website is currently
+            <i className="fas fa-exclamation-circle"></i> Our website is currently
             still being developed. If you run into any issues feel free to
             contact us. Thank you for your patience. <i class="fas fa-exclamation-circle"></i>
           </h6>
