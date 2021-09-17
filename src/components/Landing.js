@@ -107,6 +107,14 @@ const Landing = () => {
             >
               <i className="fab fa-linkedin fa-7x"></i>
             </a>
+            <a
+              href="https://www.facebook.com/webdevnau/"
+              className="btn btn-social"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-facebook-square fa-7x"></i>
+            </a>
           </div>
         </div>
       </div>

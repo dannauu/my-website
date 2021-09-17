@@ -72,6 +72,7 @@ a:hover {
 .aboutmepic {
   float: left;
   margin-right: 15px;
+  border: black solid 4px;
 }
 
 h1 {
@@ -81,6 +82,7 @@ h1 {
 
 .certificate {
   margin-bottom: 15px;
+  border: black solid 4px;
 }
 
 .center {
