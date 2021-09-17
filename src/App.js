@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Landing from "./components/Landing";
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -10,13 +11,16 @@ function App() {
       <div className="container">
         <div className="row sticky-top">
           <div className="col text-center display-6 box">
-            <Link to="/">Services</Link>
+            <Link to="/" id='box'>Services</Link>
           </div>
           <div className="col text-center display-6 box">
-            <Link to="/about">About</Link>
+            <Link to="/about" id='box'>About</Link>
           </div>
           <div className="col text-center display-6 box">
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" id='box'>Contact</Link>
+          </div>
+          <div className="col text-center display-6 box">
+            <Link to="/projects" id='box'>Projects</Link>
           </div>
         </div>
         <div className="warning text-center">
@@ -30,6 +34,7 @@ function App() {
           <Route path="/" exact component={Landing} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/projects" component={Projects} />
         </Switch>
       </div>
     </Router>

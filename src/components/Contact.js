@@ -41,7 +41,7 @@ export default function ContactUs() {
           <h1 className="text-focus-in display-3 haveAQuestion" id='haveAQuestion'>
             Have a question or want to work together?
           </h1>
-          <div class="" id='checkMark'></div>
+          <div className="" id='checkMark'></div>
           <div id='thankYouMsg' className='thankYouMsg'></div>
           <div id='thankYouMsg2' className='thankYouMsg2'></div>
         </div>
