@@ -22,13 +22,28 @@ export default function ContactUs() {
         }
       );
     e.target.reset();
+
+    const tym = document.getElementById('thankYouMsg')
+    const tym2 = document.getElementById('thankYouMsg2')
+    const haveAQuestion = document.getElementById('haveAQuestion')
+    const checkMark = document.getElementById('checkMark')
+
+    tym.innerHTML = 'Thank You!'
+    tym2.innerHTML = 'Your submission has been sent!'
+    haveAQuestion.style.display = 'none'
+    checkMark.classList= 'far fa-check-square fa-5x'
   }
 
   return (
     <div>
       <div className="container">
-        <div className='contacth1'>
-          <h1 className='text-focus-in display-3'>Have a question or want to work together?</h1>
+        <div className="contacth1">
+          <h1 className="text-focus-in display-3 haveAQuestion" id='haveAQuestion'>
+            Have a question or want to work together?
+          </h1>
+          <div class="" id='checkMark'></div>
+          <div id='thankYouMsg' className='thankYouMsg'></div>
+          <div id='thankYouMsg2' className='thankYouMsg2'></div>
         </div>
         <form onSubmit={sendEmail}>
           <div className="row pt-5 mx-auto">
@@ -110,3 +125,5 @@ export default function ContactUs() {
     </div>
   );
 }
+
+// figure out why there is margin on the bottom of the 3 icons

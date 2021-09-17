@@ -514,3 +514,21 @@ li {
           margin-bottom: 5px;
         }
       }
+
+      .thankYouMsg {
+        font-size: 80px;
+        color: green;
+      }
+
+      .thankYouMsg2 {
+        font-size: 30px;
+        color: green;
+      }
+
+      .haveAQuestion {
+        display: hide;
+      }
+
+      .fa-check-square {
+        color: green;
+      }
