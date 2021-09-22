@@ -10,25 +10,18 @@ function App() {
     <Router>
       <div className="container">
         <div className="row sticky-top">
-          <div className="col text-center display-6 box">
-            <Link to="/" id='box'>Services</Link>
-          </div>
-          <div className="col text-center display-6 box">
-            <Link to="/about" id='box'>About</Link>
-          </div>
-          <div className="col text-center display-6 box">
-            <Link to="/contact" id='box'>Contact</Link>
-          </div>
-          <div className="col text-center display-6 box">
-            <Link to="/projects" id='box'>Projects</Link>
-          </div>
+            <Link to="/" id='box'  className="col text-center display-6 box">Home</Link>
+            <Link to="/about" id='box'  className="col text-center display-6 box">About</Link>
+            <Link to="/projects" id='box'  className="col text-center display-6 box">Portfolio</Link>
+            <Link to="/contact" id='box'  className="col text-center display-6 box">Contact</Link>
         </div>
         <div className="warning text-center">
           <h6>
             <i className="fas fa-exclamation-circle"></i> Our website is currently
-            still being developed. If you run into any issues feel free to
+            still under development. If you run into any issues feel free to
             contact us. Thank you for your patience. <i className="fas fa-exclamation-circle"></i>
           </h6>
+          <div className='coloredLine'></div>
         </div>
         <Switch>
           <Route path="/" exact component={Landing} />

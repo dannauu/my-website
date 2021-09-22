@@ -1,7 +1,6 @@
 import React from "react";
 import Pic from "./img/aboutmepic.jpg";
 import Certificate from "./img/Certificate.PNG";
-import pdf from "./assets/Daniel Nau Resume 2021 (2).pdf";
 
 const About = () => {
   return (
@@ -35,6 +34,7 @@ const About = () => {
             personal blog, you can guarantee that all industry standards will be
             met using MERN stack!
           </p>
+          <br/>
         </div>
         <div className="aa">
           <img
@@ -58,20 +58,12 @@ const About = () => {
         <div className="row">
           <div className="col-md-12">
             <a
-              href={pdf}
-              className="btn btn-social"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="far fa-file-pdf fa-7x"></i>
-            </a>
-            <a
               href="https://github.com/dannauu"
               className="btn btn-social"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-github fa-7x"></i>
+              <i className="fab fa-github github fa-7x"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/daniel-nau-070441194/"
@@ -79,7 +71,7 @@ const About = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-linkedin fa-7x"></i>
+              <i className="fab fa-linkedin linkedIn fa-7x"></i>
             </a>
             <a
               href="https://www.facebook.com/webdevnau/"
@@ -87,7 +79,7 @@ const About = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-facebook-square fa-7x"></i>
+              <i class="fab fa-facebook-square facebook fa-7x"></i>
             </a>
           </div>
         </div>
