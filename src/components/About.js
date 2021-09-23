@@ -47,13 +47,11 @@ const About = () => {
 
           <p className="text-focus-in display-6">
             On May 24th, 2021 I graduated Kansas University Full Stack Coding
-            bootcamp. During this bootcamp I learned a metric ton of information
-            for at the time was just a hobby, now I am a full time developer and
-            couldn't be happier! Pursuing a career in Web Development was always
-            a dream of mine!
+            bootcamp. Since 2014 I have recognized web development and coding as a hobby. In 2021 I made that hobby become a career and the way I take care of my family!
           </p>
         </div>
       </div>
+      <div className="coloredLine"></div>
       <div className="contact">
         <div className="row">
           <div className="col-md-12">

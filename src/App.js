@@ -13,11 +13,11 @@ function App() {
           <h6>
             <i className="fas fa-exclamation-circle"></i> Our website is
             currently still under development. If you run into any issues feel
-            free to contact us. Thank you for your patience.{" "}
+            free to contact us. Thank you for your patience. 
             <i className="fas fa-exclamation-circle"></i>
           </h6>
         </div>
-        <div className="row sticky-top">
+        <div className="row">
           <Link to="/" id="box" className="col text-center display-6 box">
             Home
           </Link>

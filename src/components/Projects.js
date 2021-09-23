@@ -10,6 +10,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    <div className="coloredLine"></div>
     <div className="contact">
         <div className="row">
           <div className="col-md-12">
