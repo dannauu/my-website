@@ -68,7 +68,6 @@ const Landing = () => {
             <i className="fab fan fa-js fa-3x javascript"></i>
           </button>
         </div>
-
         <div className="yes text-center">
           <ul className="display-4 bounce-in-bottom">
             <li>Development</li>
