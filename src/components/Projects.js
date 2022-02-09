@@ -19,6 +19,8 @@ const Projects = () => {
             </Card.Body>
           </Card>
         </div>
+      </div>
+    </div>
   )
 };
 
