@@ -31,10 +31,9 @@ const About = () => {
 
           <p className="text-focus-in display-6">
             Rather your needs be a e-commerce website for your business or a
-            personal blog, you can guarantee that all industry standards will be
-            met using MERN stack!
+            personal blog, it should be an approachable platform for everyone!
           </p>
-          <br/>
+          <br />
         </div>
         <div className="aa">
           <img
@@ -47,11 +46,10 @@ const About = () => {
 
           <p className="text-focus-in display-6">
             On May 24th, 2021 I graduated Kansas University Full Stack Coding
-            bootcamp. Since 2014 I have recognized web development and coding as a hobby. In 2021 I made that hobby become a career and the way I take care of my family!
+            bootcamp. Since 2017 I have recognized web development as a hobby. In 2022 it's the way I am going to provide for myself and family. 
           </p>
         </div>
       </div>
-      <div className="coloredLine"></div>
       <div className="contact">
         <div className="row">
           <div className="col-md-12">

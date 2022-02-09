@@ -4,19 +4,16 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Landing from "./components/Landing";
 import Projects from "./components/Projects";
+import backgroundVideo from './components/img/DJI_0424.mp4'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <Router>
       <div className="container">
-        <div className="warning text-center">
-          <h6>
-            <i className="fas fa-exclamation-circle"></i> Our website is
-            currently still under development. If you run into any issues feel
-            free to contact us. Thank you for your patience. 
-            <i className="fas fa-exclamation-circle"></i>
-          </h6>
-        </div>
+        <video autoPlay loop muted id="bgVid">
+          <source src={backgroundVideo} type="video/mp4" />
+        </video>
         <div className="row">
           <Link to="/" id="box" className="col text-center display-6 box">
             Home

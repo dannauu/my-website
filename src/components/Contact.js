@@ -90,7 +90,6 @@ export default function ContactUs() {
           </div>
         </form>
       </div>
-      <div className="coloredLine"></div>
       <div className="contact">
         <div className="row">
           <div className="col-md-12">
