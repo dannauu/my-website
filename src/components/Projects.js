@@ -8,18 +8,65 @@ const Projects = () => {
     <div className="container">
       <div className="row">
         <div className="col">
-          <Card className="thornbushCard">
-            <img src={thornbush} className="thornbush" />
-            <Card.Body className="thornCardBody">
-              <Card.Title className="thornbushHeader">Thornbush RC</Card.Title>
-              <Card.Text className="thornCardText">
-                Hobby website built using MERN stack. JWT, bcrypt, mongoose and more for user auth and database.
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
               </Card.Text>
-              <Button variant="outline-dark">ThornbushRC.com</Button>
+              <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
         </div>
+
+        <div className="col">
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div>
+
       </div>
+      <div className="row">
+        <div className="col">
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className="col">
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div>
+
+      </div>
+
     </div>
   )
 };
