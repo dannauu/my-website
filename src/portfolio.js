@@ -45,6 +45,8 @@ const header = {
   const skills = [
     'HTML 5',
     'CSS',
+    'GraphQL',
+    'Insomnia',
     'JavaScript',
     'React',
     'Material UI',
