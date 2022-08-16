@@ -41,7 +41,7 @@ const header = {
    
     },
     {
-      name: 'The Floured Flour',
+      name: 'The Floured Flower',
       description:
         'SPA website for a local bakery. Built with Reactjs and deployed with Github Pages.',
       stack: ['Javascript', 'TailwindCSS', 'ReactJS'],
