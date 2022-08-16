@@ -40,6 +40,15 @@ const header = {
       sourceCode: 'https://github.com/dannauu/Employee-Management-System',
    
     },
+    {
+      name: 'The Floured Flour',
+      description:
+        'SPA website for a local bakery. Built with Reactjs and deployed with Github Pages.',
+      stack: ['Javascript', 'TailwindCSS', 'ReactJS'],
+      sourceCode: 'https://github.com/dannauu/theflouredflower',
+      livePreview: 'https://dannauu.github.io/theflouredflower/',
+   
+    },
   ]
   
   const skills = [
