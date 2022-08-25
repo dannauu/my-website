@@ -8,7 +8,7 @@ const header = {
     role: 'Full-Stack Engineer',
     description:
       'I strive to make the web an easier, more approachable platform for whatever your requirements are. I also manage to be on time and on budget!',
-    resume: 'https://docs.google.com/document/d/1L7GByLi7Ju_rTywnZlg4q1j40xLCirq-FHIBtZzQWu4/edit?usp=sharing',
+    resume: 'https://docs.google.com/document/d/1h_KHbB77X1cvX95_9KSQasKtAeaQdfuLpdmxEsPjJpM/edit?usp=sharing',
     social: {
       linkedin: 'https://www.linkedin.com/in/daniel-nau/',
       github: 'https://github.com/dannauu',
