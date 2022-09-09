@@ -58,6 +58,15 @@ const header = {
       livePreview: 'https://frozen-hamlet-78562.herokuapp.com/',
    
     },
+    {
+      name: 'Carlisle Overhead Doors and Services LLC',
+      description:
+        'Website for local garage door business. ',
+      stack: ['Javascript', 'TailwindCSS', 'ReactJS'],
+      sourceCode: 'https://github.com/dannauu/carlisle-overhead-doors',
+      livePreview: 'https://roaring-moonbeam-6a326b.netlify.app/',
+   
+    },
   ]
   
   const skills = [
