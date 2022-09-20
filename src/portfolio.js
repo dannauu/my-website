@@ -70,8 +70,8 @@ const header = {
     {
       name: 'Golf Ball Picker',
       description:
-        'SPA for React Practice',
-      stack: ['ReactJs', 'Custom CSS'],
+        'Website that lets user choose brand of golf ball and it will render all golf balls made by that company. (For demonstration purposes only)',
+      stack: ['ReactJs', 'Custom CSS', 'uniqID'],
       sourceCode: 'https://github.com/dannauu/golf-ball-picker',
       livePreview: 'https://cheerful-toffee-1f0c25.netlify.app/',
    
