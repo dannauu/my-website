@@ -67,6 +67,16 @@ const header = {
       livePreview: 'https://roaring-moonbeam-6a326b.netlify.app/',
    
     },
+    {
+      name: 'Golf Ball Picker',
+      description:
+        'SPA for React Practice',
+      stack: ['ReactJs', 'Custom CSS'],
+      sourceCode: 'https://github.com/dannauu/golf-ball-picker',
+      livePreview: 'https://cheerful-toffee-1f0c25.netlify.app/',
+   
+    },
+  ]
   ]
   
   const skills = [
