@@ -77,7 +77,7 @@ const header = {
    
     },
   ]
-  ]
+  
   
   const skills = [
     'HTML 5',
