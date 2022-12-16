@@ -76,6 +76,15 @@ const header = {
       livePreview: 'https://cheerful-toffee-1f0c25.netlify.app/',
    
     },
+    {
+      name: 'Taxes by MET.JR',
+      description:
+        'Informational website for a local tax preparation office. Allows users to download forms they need and also see frequently asked questions as well.',
+      stack: ['ReactJs', 'TailwindCSS', 'Netlify'],
+      sourceCode: 'https://github.com/dannauu/tax-office-site',
+      livePreview: 'https://taxesbymetjr.com',
+   
+    },
   ]
   
   
