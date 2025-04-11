@@ -12,6 +12,11 @@ const Contact = () => {
           Email me
         </span>
       </a>
+      <a href={`tel:${contact.phoneNumber}`}>
+        <span type='button' className='btn btn--outline'>
+          Call me
+        </span>
+      </a>
     </section>
   )
 }

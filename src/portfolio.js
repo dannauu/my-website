@@ -4,10 +4,10 @@ const header = {
   }
   
   const about = {
-    name: 'Daniel Nau',
+    name: 'Daniel',
     role: 'Full-Stack Engineer',
     description:
-      'I strive to make the web an easier, more approachable platform for whatever your requirements are. I also manage to be on time and on budget!',
+      'I create custom, user-friendly websites that make the web more accessible and tailored to your unique needs. I pride myself on delivering projects on time and within budget, ensuring a seamless experience from start to finish.',
     resume: 'https://docs.google.com/document/d/1h_KHbB77X1cvX95_9KSQasKtAeaQdfuLpdmxEsPjJpM/edit?usp=sharing',
     social: {
       linkedin: 'https://www.linkedin.com/in/daniel-nau/',
@@ -17,63 +17,11 @@ const header = {
   
   const projects = [
     {
-      name: 'Weather Dashboard',
+      name: 'Loftis Land Management',
       description:
-        'User can search for a city and get the current weather from Open Weather API.',
-      stack: ['JavaScript', 'HTML', 'CSS'],
-      sourceCode: 'https://github.com/dannauu/Weather-Dashboard',
-      livePreview: 'https://dannauu.github.io/Weather-Dashboard/',
-    },
-    {
-      name: 'Note Taker',
-      description:
-        'Note Taker is a simple application that allows the user to create and delete notes. Built with Nodejs and Expressjs.',
-      stack: ['Javascript', 'CSS', 'HTML'],
-      sourceCode: 'https://github.com/dannauu/Note-Taker',
-      livePreview: 'https://secure-everglades-77184.herokuapp.com/',
-    },
-    {
-      name: 'Employee Management System',
-      description:
-        'Employee Management System is a CLI that allows a company to manage their employees. ',
-      stack: ['Javascript', 'Inquirer', 'MySQL'],
-      sourceCode: 'https://github.com/dannauu/Employee-Management-System',
-   
-    },
-    {
-      name: 'The Floured Flower',
-      description:
-        'SPA website for a local bakery. Built with Reactjs and deployed with Github Pages.',
-      stack: ['Javascript', 'TailwindCSS', 'ReactJS'],
-      sourceCode: 'https://github.com/dannauu/theflouredflower',
-      livePreview: 'https://www.theflouredflower.com/',
-   
-    },
-    {
-      name: 'Thornbush RC',
-      description:
-        'Application for members of a local RC club near me.',
-      stack: ['Javascript', 'Bootstrap', 'ReactJS', 'MongoDB', 'Node/Express'],
-      sourceCode: 'https://github.com/dannauu/thornbush-rc',
-      livePreview: 'https://frozen-hamlet-78562.herokuapp.com/',
-   
-    },
-    {
-      name: 'Carlisle Overhead Doors and Services LLC',
-      description:
-        'Website for local garage door business. ',
-      stack: ['Javascript', 'TailwindCSS', 'ReactJS'],
-      sourceCode: 'https://github.com/dannauu/carlisle-overhead-doors',
-      livePreview: 'https://roaring-moonbeam-6a326b.netlify.app/',
-   
-    },
-    {
-      name: 'Golf Ball Picker',
-      description:
-        'Website that lets user choose brand of golf ball and it will render all golf balls made by that company. (For demonstration purposes only)',
-      stack: ['ReactJs', 'Custom CSS', 'uniqID'],
-      sourceCode: 'https://github.com/dannauu/golf-ball-picker',
-      livePreview: 'https://cheerful-toffee-1f0c25.netlify.app/',
+        'Informational website for a land management company. Allows users to see the services they provide, a gallery of their work, a contact form and more.',
+      stack: ['NextJS', 'Netlify'],
+      livePreview: 'https://loftislandmanagement.com/',
    
     },
     {
@@ -94,6 +42,7 @@ const header = {
     'GraphQL',
     'Insomnia',
     'JavaScript',
+    'Typescript',
     'React',
     'Material UI',
     'Git',
@@ -119,6 +68,7 @@ const header = {
   
   const contact = {
     email: 'danielnau1994@gmail.com',
+    phoneNumber: '1-816-882-8421'
   }
   
   export { header, about, projects, skills, contact }

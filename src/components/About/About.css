@@ -13,7 +13,7 @@
   
   .about__desc {
     font-size: 1rem;
-    max-width: 600px;
+    max-width: 640px;
   }
   
   .about__desc,
@@ -31,7 +31,6 @@
   
   @media (max-width: 600px) {
     .app .about {
-      align-items: flex-start;
       margin-top: 2em;
     }
   }

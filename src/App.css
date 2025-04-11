@@ -15,11 +15,11 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
+  --clr-bg: #181c30;
   --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-fg: #ffffff;
+  --clr-fg-alt: #ffffff;
+  --clr-primary: #00c8ff;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -32,6 +32,10 @@ main {
 
 .section {
   margin-top: 5em;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .section__title {
@@ -73,7 +77,6 @@ main {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
   font-weight: 500;
 }
 
@@ -84,11 +87,12 @@ main {
 .btn {
   display: block;
   cursor: pointer;
-  padding: 0.8em 1.4em;
+  padding-block: .5rem;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
+  width: 120px;
+  text-align: center;
 }
 
 .btn--outline {

@@ -9,13 +9,13 @@ const About = () => {
   return (
     <div className='about center'>
       {name && (
-        <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+        <h1 className='text-center'>
+          Hello, my name is <span className='about__name'>{name}.</span>
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+      {role && <h2 className='about__role center text-center'>I am a {role}.</h2>}
+      <p className='about__desc text-center'>{description && description}</p>
 
       <div className='about__contact center'>
         {resume && (
