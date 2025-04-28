@@ -5,6 +5,10 @@
   background-color: var(--clr-bg);
 }
 
+* {
+  outline: 1px solid lime !important;
+}
+
 .light {
   --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;
