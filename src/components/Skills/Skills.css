@@ -9,5 +9,6 @@
   
   .skills__list-item {
     margin: 0.5em;
+    width: 170px !important;
   }
   
