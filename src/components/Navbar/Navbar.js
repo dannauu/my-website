@@ -30,7 +30,7 @@ const Navbar = () => {
         aria-label='toggle navigation'
       >
         <a
-          href="tel:+8168828421"
+          href="tel:+18168828421"
           aria-label='call me'
           className='link link--icon'
         >

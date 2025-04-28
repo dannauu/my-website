@@ -4,6 +4,7 @@
   max-width: 1000px;
   margin: 0 auto;
   height: max-content;
+  max-width: 100%;
 }
 
 .about__name {
