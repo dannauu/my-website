@@ -48,6 +48,11 @@ const App = () => {
     sendEmailNotification();
   }, []);
 
+  useEffect(() => {
+    window.location.href = 'https://www.danielnau.com';
+  }, []);
+
+
   return (
     <div id='top' className={`${themeName} app`}>
       <Header />
